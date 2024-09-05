@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Solution {
+public class findingMissingNumber {
     public int[] missingRolls(int[] rolls, int mean, int n) {
         int m = rolls.length;
         int totalRolls = n + m;
@@ -34,7 +34,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-       Solution s = new Solution();
+        findingMissingNumber s = new findingMissingNumber();
         
         // Example 1
         int[] rolls1 = {3, 2, 4, 3};
