@@ -7,15 +7,12 @@ public class common_element {
     {
         ArrayList<Integer> result = new ArrayList<>();
 
-        // Using HashMap to store the frequency of elements in v1
         HashMap<Integer, Integer> map = new HashMap<>();
 
-        // Counting occurrences of each element in v1
         for (int num : v1) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
 
-        // Find common elements with v2
         for (int num : v2) {
             if (map.containsKey(num) && map.get(num) > 0) {
                 result.add(num);
@@ -23,7 +20,6 @@ public class common_element {
             }
         }
 
-        // Sort the result list to return elements in sorted order
         Collections.sort(result);
 
         return result;
