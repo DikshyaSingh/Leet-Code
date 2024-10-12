@@ -27,9 +27,9 @@ public class The_Number_of_the_Smallest_Unoccupied_Chair {
             The_Number_of_the_Smallest_Unoccupied_Chair solution = new The_Number_of_the_Smallest_Unoccupied_Chair();
 
             int[][] times = {
-                    {1, 4},
-                    {2, 3},
-                    {4, 6}
+                    {1, 4},  // Friend 0
+                    {2, 3},  // Friend 1
+                    {4, 6}   // Friend 2
             };
 
             int targetFriend = 1;
