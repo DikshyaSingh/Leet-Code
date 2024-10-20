@@ -38,4 +38,18 @@ public class ParsingBooleanExpression {
         }
         return st.peek() == 't';
     }
+    public static void main(String[] args) {
+        ParsingBooleanExpression parser = new ParsingBooleanExpression();
+
+        // Test cases
+        String expression1 = "!(&(t,f,t))";
+        String expression2 = "|(f,t)";
+        String expression3 = "&(t,t,f)";
+        String expression4 = "!(f)";
+
+        System.out.println("Result for expression1: " + parser.parseBoolExpr(expression1)); // Expected: true
+        System.out.println("Result for expression2: " + parser.parseBoolExpr(expression2)); // Expected: true
+        System.out.println("Result for expression3: " + parser.parseBoolExpr(expression3)); // Expected: false
+        System.out.println("Result for expression4: " + parser.parseBoolExpr(expression4)); // Expected: true
+    }
 }
