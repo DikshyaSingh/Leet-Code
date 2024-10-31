@@ -4,7 +4,8 @@ import java.util.List;
 
 public class DivideIntervalsIntoMinimumNumberofGroups {
     public static void main(String[] args) {
-        int[][] intervals ={
+        int[][] intervals =
+        {
                 {1, 3},
                 {2, 5},
                 {4, 6},
