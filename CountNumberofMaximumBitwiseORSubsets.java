@@ -1,10 +1,10 @@
 public class CountNumberofMaximumBitwiseORSubsets {
     public void backtrack(int[] nums, int index, int currentOR, int maxOR, int[] count) {
-        if (currentOR == maxOR) {
+        if (currentOR ==maxOR) {
             count[0]++;
         }
 
-        for (int i = index; i < nums.length; i++) {
+        for (int i= index; i < nums.length; i++) {
             backtrack(nums, i + 1, currentOR | nums[i], maxOR, count);
         }
     }
