@@ -1,5 +1,6 @@
 // Definition for a binary tree node.
- public class TreeNode {
+ public class TreeNode 
+ {
       int val;
      TreeNode left;
      TreeNode right;
@@ -12,7 +13,8 @@
       }
   }
 
-class linkedListInBinaryTree {
+class linkedListInBinaryTree 
+{
     public boolean isSubPath(ListNode head, TreeNode root) {
         // If the tree root is null, return false
         if (root == null) return false;
@@ -23,7 +25,8 @@ class linkedListInBinaryTree {
     }
 
     // Helper method for depth-first search to check if the linked list matches the path
-    private boolean dfs(ListNode head, TreeNode node) {
+    private boolean dfs(ListNode head, TreeNode node) 
+ {
         // If the linked list is fully traversed, return true
         if (head == null) return true;
         // If the node is null or values don't match, return false
