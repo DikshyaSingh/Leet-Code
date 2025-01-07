@@ -24,7 +24,7 @@ public class KthLargestSuminaBinaryTree {
 
         if (k > res.size()) return -1;
 
-        res.sort(Collections.reverseOrder());  // Sort level sums in descending order
+        res.sort(Collections.reverseOrder());   // Sort level sums in descending order
 
         return res.get(k - 1);
 
