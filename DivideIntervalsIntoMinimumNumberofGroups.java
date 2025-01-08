@@ -20,7 +20,7 @@ public class DivideIntervalsIntoMinimumNumberofGroups {
 
         // Create events for each start and end of the interval
         for (int[] interval : intervals) {
-            events.add(new int[] { interval[0], 1 }); // Start event
+            events.add(new int[] { interval[0], 1 });  // Start event
             events.add(new int[] { interval[1] + 1, -1 }); // End event
         }
 
