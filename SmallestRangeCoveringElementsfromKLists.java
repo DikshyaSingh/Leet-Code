@@ -26,7 +26,7 @@ public class SmallestRangeCoveringElementsfromKLists {
 
             // If we have covered all lists
             if (k == nums.size()) {
-                // Shrink the range from the start while maintaining coverage of all lists
+            // Shrink the range from the start while maintaining coverage of all lists
                 while (count.get(ordered.get(i)[1]) > 1) {
                     count.put(ordered.get(i)[1], count.get(ordered.get(i)[1]) - 1);
                     ++i;
