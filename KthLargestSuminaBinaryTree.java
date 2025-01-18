@@ -8,6 +8,7 @@ public class KthLargestSuminaBinaryTree {
         Queue<TreeNode> q = new LinkedList<>();  // Queue for level-order traversal
         q.add(root);  // Start BFS from the root node
 
+        
         while (!q.isEmpty()) {
             int n = q.size();  // Number of nodes at the current level
             long sum = 0;  // Sum of node values at the current level
@@ -22,6 +23,7 @@ public class KthLargestSuminaBinaryTree {
             res.add(sum);  // Store the sum of the current level
         }
 
+        
         if (k > res.size()) return -1;
 
         res.sort(Collections.reverseOrder());   // Sort level sums in descending order
