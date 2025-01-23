@@ -14,6 +14,7 @@ public class longestSquareStreakinanArray {
             int curr = setArr.get(i);
             int count = 0;
 
+            
             while (set.contains(curr)) {
                 set.remove(curr);
                 curr = curr * curr;
