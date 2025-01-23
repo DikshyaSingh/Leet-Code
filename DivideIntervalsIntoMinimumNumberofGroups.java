@@ -9,8 +9,7 @@ public class DivideIntervalsIntoMinimumNumberofGroups {
                 {1, 3},
                 {2, 5},
                 {4, 6},
-                {7, 8}
-        };
+                {7, 8} };
 
         System.out.println("Maximum concurrent intervals: " + maxConcurrentIntervals(intervals));
     }
