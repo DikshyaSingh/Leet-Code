@@ -22,7 +22,6 @@ public class romanToInt {
                     a += map.get(s.charAt(i));
                 }
         }
-        
         return a;
     }
 
