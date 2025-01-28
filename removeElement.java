@@ -12,7 +12,6 @@ public class removeElement {
         }
         return a;
     }
-
     public static void main(String[] args) {
         int [] nums = {3,2,2,3};
         int length = removeElement(nums,3);
