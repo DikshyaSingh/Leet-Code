@@ -26,7 +26,6 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
     public static void main(String[] args) {
         LongestSubstringWithoutRepeatingCharacters solution = new LongestSubstringWithoutRepeatingCharacters();
-
         // Test cases
         String test1 = "abcabcbb";
         System.out.println("Length of longest substring without repeating characters in \"" + test1 + "\": "
