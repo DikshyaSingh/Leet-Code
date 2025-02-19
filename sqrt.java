@@ -39,7 +39,6 @@ class sqrt {
         int test4 = 25;
         int test5 = 0;
         int test6 = 1;
-
         // Printing the results for the test cases
         System.out.println("Square root of " + test1 + " is: " + solver.mySqrt(test1)); // Expected: 2
         System.out.println("Square root of " + test2 + " is: " + solver.mySqrt(test2)); // Expected: 2
