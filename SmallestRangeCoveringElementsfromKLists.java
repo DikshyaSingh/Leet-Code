@@ -10,7 +10,6 @@ public class SmallestRangeCoveringElementsfromKLists {
                 ordered.add(new int[]{n, k});
             }
         }
-
         // Sort the ordered list based on the numbers
         Collections.sort(ordered, (a, b) -> Integer.compare(a[0], b[0]));
 
