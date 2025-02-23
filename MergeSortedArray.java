@@ -2,7 +2,6 @@ public class MergeSortedArray {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         // Start merging from the last element of both arrays.
         int last = m + n - 1;
-
         // Index pointers for nums1 and nums2
         int i = m - 1; // last element in nums1 (not counting zeros)
         int j = n - 1; // last element in nums2
