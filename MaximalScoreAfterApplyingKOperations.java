@@ -10,8 +10,6 @@ public class MaximalScoreAfterApplyingKOperations {
         }
 
         long score = 0;
-
-        // Perform k operations
         for (int i = 0; i < k; i++) {
             long maxVal = maxHeap.poll();
 
