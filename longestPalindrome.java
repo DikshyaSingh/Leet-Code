@@ -16,6 +16,7 @@ public class longestPalindrome {
                 // Otherwise, add the character to the set (indicating it appears odd times)
                 oddCountSet.add(c);
             }
+            
         }
 
         // If there are odd characters left, the length of the palindrome is the length of the string minus the number of odd-count characters, plus 1 for the center character
