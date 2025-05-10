@@ -5,6 +5,8 @@ public class longestPalindrome {
         // Set to store characters that appear an odd number of times
         HashSet<Character> oddCountSet = new HashSet<>();
 
+
+        
         // Iterate over the characters in the string
         for (char c : s.toCharArray()) {
             // If the character is already in the set, remove it (pairing it)
